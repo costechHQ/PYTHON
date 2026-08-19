@@ -25,7 +25,7 @@ guests.append("Glory")
 print(f"Dear {guest}, I will be truly honored to have you join me for a dinner")
 
 #3.7
-print("I just discovered that the new dinner table won't arrive in time, unfortuanately, my table can only accept only two persons")
+print("Unfortuanately, my table can only accept only two persons")
 
 while len(guests) > 2:
     removed_guest = guests.pop()
@@ -33,6 +33,9 @@ print(f" I am sorry, {removed_guest}, but I can't invite you to dinner anymore!"
 
 for guest in guests:
     print(f"Good news, {guest}! you are invited to dinner")
+
+num_guests = len(guests)
+print(f"I am inviting exactly {num_guests} to my dinner!") 
 
 del guests[0]
 del guests[0]

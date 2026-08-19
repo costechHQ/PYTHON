@@ -1,28 +1,28 @@
-# #4.3
-# for number in range(1, 21):
-#     print(number, end=" ")
+#4.3
+for number in range(1, 21):
+    print(number, end=" ")
 
 # #4.4
-# for numbers in range(1, 1000001):
-#     print(numbers, end=" ")
+for numbers in range(1, 1000001):
+    print(numbers, end=" ")
 
 #4.5
-# numbers = list(range(1,1000001))
-# print(f"Minimum Value: {min(numbers)}")
-# print(f"Maximum Value: {max(numbers):,}")
+numbers = list(range(1,1000001))
+print(f"Minimum Value: {min(numbers)}")
+print(f"Maximum Value: {max(numbers):,}")
 
-# total_sum = sum(numbers)
-# print(f"Sum of numbers 1 to 1000000: {total_sum:,}")
+total_sum = sum(numbers)
+print(f"Sum of numbers 1 to 1000000: {total_sum:,}")
 
 #4.6
-# odd_numbers = list(range(1, 21, 2))
-# for odd in odd_numbers:
-#     print(odd, end=" ")
+odd_numbers = list(range(1, 21, 2))
+for odd in odd_numbers:
+    print(odd, end=" ")
 
 #4.7
-# multiples_of_three = list(range(3, 31, 3))
-# for multiple in multiples_of_three:
-#     print(multiple, end=" ")
+multiples_of_three = list(range(3, 31, 3))
+for multiple in multiples_of_three:
+    print(multiple, end=" ")
 
 #4.8
 cube_list = []

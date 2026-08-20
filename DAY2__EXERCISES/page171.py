@@ -66,4 +66,22 @@ elif age < 65:
     print("The person is an adult")
 else:
     print("The person is an elder")
+print("="*40 + "\n")
 
+#5.7
+favorite_fruits = ["Mangoes", "Apple", "Banana", "grapes"]
+
+if 'Apple' in favorite_fruits:
+    print("I really like Apple")
+
+if 'Orange' in favorite_fruits:
+    print("I really like Orange")
+
+if 'Mangoes' in favorite_fruits:
+    print("I really like Mangoes")
+
+if 'Banana' in favorite_fruits:
+    print("I really like Banana")
+
+if 'Strewberries' in favorite_fruits:
+    print("I really like Stewberries")

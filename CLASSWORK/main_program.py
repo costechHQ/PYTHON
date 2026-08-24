@@ -16,4 +16,4 @@
 
 #005
 from shirt_printer import *
-make_shirt("large", "Approach 1 Rules")
+make_shirt("large", "Costech Innovations")
